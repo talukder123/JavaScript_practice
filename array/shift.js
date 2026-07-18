@@ -1,9 +1,9 @@
 const arr = [10, 20, 30, 40, 50];
 
-console.log('Before push:');
+console.log('Before shift:');
 console.log(arr);
 
-arr.push(60);
+arr.shift();
 
-console.log('After push:');
+console.log('After shift:');
 console.log(arr);
