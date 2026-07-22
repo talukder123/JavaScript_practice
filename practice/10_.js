@@ -16,3 +16,6 @@ let total = Object.entries(book);
 
 console.log(arr_key);
 console.log(total);
+
+delete book.pages;
+console.log('Object without pages\n', book);

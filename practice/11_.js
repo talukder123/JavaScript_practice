@@ -1,0 +1,27 @@
+/**
+ * let user = {
+  username: "coder123",
+  address: {
+    city: "Austin",
+    zip: "78701"
+  }
+}
+Log the city using dot notation chaining.
+Add a country property inside the address.
+Delete the zip property from the nested object.
+ */
+
+let user = {
+    username: "coder123",
+    address: {
+      city: "Austin",
+      zip: "78701",
+      }
+}
+
+console.log(user.address.city);
+
+user.address["country"] = "Australia";
+delete user.address.zip;
+
+console.log('After update:\n', user);
